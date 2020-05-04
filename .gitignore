@@ -1,3 +1,5 @@
 /cgi-bin
 /tmp
 z-app-original.js
+/z-do-not-upload
+/node_modules
