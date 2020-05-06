@@ -18,4 +18,5 @@ https://code.dominickdesigns.space/
 * No known issues at this time. Submit issues in this git repo
 
 ## Roadmap
-* more to come
+* allow write to json file from online form
+* currently, in order to see changes to site, Node.js must be restarted in cPanel
