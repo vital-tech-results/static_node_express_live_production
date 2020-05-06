@@ -3,8 +3,11 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const app = express();
 const routes = require('./routes');
-var path = require('path');
 
+var minify = require('express-minify');
+const compression = require('compression');
+
+var path = require('path');
 
 const projectRoutes = require('./routes/project');
 
@@ -15,9 +18,13 @@ app.use('/project', projectRoutes);
 
 app.use(cors());
 
+
 //set the “view engine” to “pug”
 app.set('view engine', 'pug');
 
+app.use(compression());
+// try to minify JS https://github.com/breeswish/express-minify
+app.use(minify());
 // a static route and the express.static method to serve the static files located in the public folder
 // app.use('/static', express.static('public'));
 app.use('/static', express.static(path.join(__dirname, 'public')));
