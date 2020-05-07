@@ -100,6 +100,38 @@
                     "https://atjvzgrowo.cloudimg.io/v7/code.dominickdesigns.space/img/sql-book-manager/2_sql_book_manager_1250.png",
                     "https://atjvzgrowo.cloudimg.io/v7/code.dominickdesigns.space/img/sql-book-manager/3_sql_book_manager_1250.png"
                 ]
+            },
+            {
+                "id": "7",
+                "project_name": "XRDi Business Website",
+                "description": "Allow users to download tech docs; contact form; display technologies, history, and profile",
+                "technologies": ["Rapidweaver", "Grid Iron (display Google Sheets)", "Contact form"],
+                "live_link": "https://xrdi.com/",
+                "github_link": "https://xrdi.com/",
+                "image_urls": [
+                    "https://atjvzgrowo.cloudimg.io/v7/code.dominickdesigns.space/img/xrdi/xrdi_550.png",
+                    "https://atjvzgrowo.cloudimg.io/v7/code.dominickdesigns.space/img/xrdi/1_xrdi_1200.png",
+                    "https://atjvzgrowo.cloudimg.io/v7/code.dominickdesigns.space/img/xrdi/2_xrdi_1200.png",
+                    "https://atjvzgrowo.cloudimg.io/v7/code.dominickdesigns.space/img/xrdi/3_xrdi_1200.png"
+                ]
+            },
+            {
+                "id": "8",
+                "project_name": "Beaufort Construction Business Website",
+                "description": "Display living portfolio, testimonials, history; allow users to contact via phone, email and submit request for quote via custom form",
+                "technologies": [
+                    "Rapidweaver",
+                    "Siphon",
+                    "Custom Contact form"
+                ],
+                "live_link": "https://beaufortconstruction.net/",
+                "github_link": "https://beaufortconstruction.net/",
+                "image_urls": [
+                    "https://atjvzgrowo.cloudimg.io/v7/code.dominickdesigns.space/img/bci/bci-550x550.png",
+                    "https://atjvzgrowo.cloudimg.io/v7/code.dominickdesigns.space/img/bci/1-bci-1200x550.png",
+                    "https://atjvzgrowo.cloudimg.io/v7/code.dominickdesigns.space/img/bci/2-bci-1200x550.png",
+                    "https://atjvzgrowo.cloudimg.io/v7/code.dominickdesigns.space/img/bci/3-bci-1200x550.png"
+                ]
             }
 
         ]
